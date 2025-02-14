@@ -4,7 +4,7 @@ import { Typography, Paper } from "@mui/material";
 
 const LoveLetter = () => {
   const letter =
-    "My dearest, SIMILEOLUWA\n\nOn this special day, I want to express how much you mean to me. Your love fills my heart with joy and warmth. Every moment with you is a treasure, and I'm grateful for your presence in my life. You are my best friend, my soulmate, and my everything. I love you more than words can say.\n\nYour Love,";
+    "My dearest, SIMILEOLUWA\n\nOn this special day, I want to express how much you mean to me. Your love fills my heart with joy and warmth. Every moment with you is a treasure, and I'm grateful for your presence in my life. You are my best friend, my soulmate, and my everything. I love you more than words can say.\n\nYour Love.";
 
   return (
     <Paper elevation={3} className="p-6 mb-8 bg-pink-50">
