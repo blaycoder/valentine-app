@@ -9,7 +9,7 @@ const AudioPlayer = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio("../src/assets/DOTTi_The_Deity_-_Forever_Sweet.mp3");
+    audioRef.current = new Audio("/DOTTi_The_Deity_-_Forever_Sweet.mp3");
     audioRef.current.loop = true;
     audioRef.current.volume = 0.5;
 
